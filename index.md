@@ -40,7 +40,7 @@ More specific guidance if you're still stuck.
 
 ## 👥 For Mentors
 
-Want to contribute a worksheet? Check our [Syntax Guide](syntax-guide.md) to see all available interactive elements you can use.
+Want to contribute a worksheet? Check our [Syntax Guide](syntax-guide) to see all available interactive elements you can use.
 
 ---
 

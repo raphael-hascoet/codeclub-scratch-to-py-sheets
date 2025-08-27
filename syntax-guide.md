@@ -125,7 +125,7 @@ Replace the fixed numbers in `circle(200, 200, 50)` with `circle(mouseX, mouseY,
 
 ### Basic Solution
 
-<details>
+<details markdown="1">
 <summary>✅ Show Solution</summary>
 
 ```python
@@ -141,7 +141,7 @@ def draw():
 
 ### Solution with Explanation
 
-<details>
+<details markdown="1">
 <summary>🎉 Complete Solution & Explanation</summary>
 
 ### The Code:
