@@ -4,7 +4,7 @@ Interactive worksheets for transitioning from Scratch to Python through creative
 
 ## 🚀 About
 
-These self-paced worksheets help 12-year-old students learn Python using py5 (Python version of Processing). Each worksheet uses visual feedback and game-like projects to make programming concepts concrete and fun.
+These self-paced worksheets help students learn Python using py5 (Python version of Processing). Each worksheet uses visual feedback and game-like projects to make programming concepts concrete and fun.
 
 ## 📚 Available Worksheets
 
