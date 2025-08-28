@@ -1,0 +1,6 @@
+title: Code Club Scratch to Python
+url: "https://raphael-hascoet.github.io/codeclub-scratch-to-py-sheets/" 
+
+# Build settings
+markdown: kramdown
+theme: minima

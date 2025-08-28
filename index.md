@@ -1,3 +1,8 @@
+---
+layout: default
+title: Home
+---
+
 # 🎨 Learn Python with py5
 
 Interactive worksheets for transitioning from Scratch to Python through creative coding.

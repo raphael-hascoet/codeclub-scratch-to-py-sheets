@@ -1,4 +1,10 @@
-# Interactive Worksheet Syntax Guide
+---
+layout: default
+title: Syntax Guide
+nav: false
+---
+
+# Syntax Guide
 
 ## For py5 Tutorial Creators
 
@@ -22,7 +28,7 @@ This guide shows all available interactive elements you can use in your workshee
 
 ### Simple Collapsible
 
-<details>
+<details markdown="1">
 <summary>Click to expand</summary>
 
 This is hidden content that appears when clicked!
@@ -32,7 +38,7 @@ This is hidden content that appears when clicked!
 **Syntax:**
 
 ```html
-<details>
+<details markdown="1">
   <summary>Click to expand</summary>
 
   This is hidden content that appears when clicked!
@@ -41,7 +47,7 @@ This is hidden content that appears when clicked!
 
 ### With Emoji Icons
 
-<details>
+<details markdown="1">
 <summary>🎯 Learning Objectives</summary>
 
 - Understand mouse events in py5
@@ -53,7 +59,7 @@ This is hidden content that appears when clicked!
 **Syntax:**
 
 ```html
-<details>
+<details markdown="1">
   <summary>🎯 Learning Objectives</summary>
 
   - Understand mouse events in py5 - Create interactive graphics - Use variables
@@ -67,7 +73,7 @@ This is hidden content that appears when clicked!
 
 ### Single Hint
 
-<details>
+<details markdown="1">
 <summary>💡 Need a hint?</summary>
 
 Remember that `mouseX` and `mouseY` give you the current mouse position. You can use these anywhere in your code!
@@ -76,20 +82,20 @@ Remember that `mouseX` and `mouseY` give you the current mouse position. You can
 
 ### Progressive Hints (Nested)
 
-<details>
+<details markdown="1">
 <summary>🤔 Stuck? Get hints here!</summary>
 
-<details>
+<details markdown="1">
 <summary>Hint 1: Where should the circle appear?</summary>
 
 The circle should follow your mouse cursor. Think about which variables give you the mouse position...
 
-<details>
+<details markdown="1">
 <summary>Hint 2: Still stuck?</summary>
 
 You'll need to use `mouseX` for the x-coordinate and `mouseY` for the y-coordinate of your circle.
 
-<details>
+<details markdown="1">
 <summary>Hint 3: Final hint!</summary>
 
 Replace the fixed numbers in `circle(200, 200, 50)` with `circle(mouseX, mouseY, 50)`
@@ -102,15 +108,15 @@ Replace the fixed numbers in `circle(200, 200, 50)` with `circle(mouseX, mouseY,
 **Syntax for nested hints:**
 
 ```html
-<details>
+<details markdown="1">
   <summary>🤔 Stuck? Get hints here!</summary>
 
-  <details>
+  <details markdown="1">
     <summary>Hint 1: Where should the circle appear?</summary>
 
     The circle should follow your mouse cursor...
 
-    <details>
+    <details markdown="1">
       <summary>Hint 2: Still stuck?</summary>
 
       You'll need to use `mouseX` and `mouseY`...
@@ -175,12 +181,12 @@ Try moving your mouse slowly for a snake-like effect!
 
 #### 🎮 Challenge: Create a Click Counter Game
 
-<details>
+<details markdown="1">
 <summary>📝 Level 1: Basic Click Detection</summary>
 
 Create a program that prints "Click!" to the console each time you click.
 
-<details>
+<details markdown="1">
 <summary>💡 Need help?</summary>
 
 You'll need the `mousePressed()` function:
@@ -192,7 +198,7 @@ def mousePressed():
 
 </details>
 
-<details>
+<details markdown="1">
 <summary>✅ Solution</summary>
 
 ```python
@@ -209,12 +215,12 @@ def mousePressed():
 </details>
 </details>
 
-<details>
+<details markdown="1">
 <summary>📝 Level 2: Count the Clicks</summary>
 
 Now make it count how many times you've clicked and display the number on screen.
 
-<details>
+<details markdown="1">
 <summary>💡 Need help?</summary>
 
 You'll need a global variable to store the count:
@@ -229,7 +235,7 @@ def mousePressed():
 
 </details>
 
-<details>
+<details markdown="1">
 <summary>✅ Solution</summary>
 
 ```python
@@ -251,12 +257,12 @@ def mousePressed():
 </details>
 </details>
 
-<details>
+<details markdown="1">
 <summary>📝 Level 3: Add a Target</summary>
 
 Draw a circle target. Only count clicks when the user clicks inside the circle!
 
-<details>
+<details markdown="1">
 <summary>✅ Solution</summary>
 
 ```python
@@ -299,21 +305,21 @@ def mousePressed():
 
 #### ✓ Check Your Understanding
 
-<details>
+<details markdown="1">
 <summary>Question 1: What does `mouseX` represent?</summary>
 
 **Answer:** `mouseX` represents the current horizontal (x) position of the mouse cursor within the sketch window, measured in pixels from the left edge.
 
 </details>
 
-<details>
+<details markdown="1">
 <summary>Question 2: When does the `draw()` function run?</summary>
 
 **Answer:** The `draw()` function runs continuously in a loop, approximately 60 times per second (60 FPS) by default, after `setup()` completes.
 
 </details>
 
-<details>
+<details markdown="1">
 <summary>Question 3: How do you make something happen only when the mouse is clicked?</summary>
 
 **Answer:** Use the `mousePressed()` function. This function is called once each time the mouse button is pressed down.
@@ -332,7 +338,7 @@ def mousePressed():
 
 ### Expandable Code Walkthroughs
 
-<details>
+<details markdown="1">
 <summary>📖 Example: Color-Changing Background</summary>
 
 ### Complete Code:
@@ -351,7 +357,7 @@ def mousePressed():
     bg_color = random(255)
 ```
 
-<details>
+<details markdown="1">
 <summary>🔍 Line-by-line explanation</summary>
 
 1. **`bg_color = 0`** - Creates a global variable to store our background color (starts as black)
@@ -377,7 +383,7 @@ def mousePressed():
 
 ### 📌 Tips for Using Collapsible Sections
 
-<details>
+<details markdown="1">
 <summary>View formatting tips</summary>
 
 1. **Always leave a blank line** after `<summary>` tags when using markdown inside
@@ -398,7 +404,7 @@ def mousePressed():
 
 ### 📝 Template for a Complete Exercise
 
-<details>
+<details markdown="1">
 <summary>View exercise template</summary>
 
 ````markdown
@@ -410,22 +416,22 @@ def mousePressed():
 
 [Step-by-step what to do]
 
-<details>
+<details markdown="1">
 <summary>💡 Hints</summary>
 
-<details>
+<details markdown="1">
 <summary>Hint 1</summary>
 [Gentle nudge]
 </details>
 
-<details>
+<details markdown="1">
 <summary>Hint 2</summary>
 [More specific help]
 </details>
 
 </details>
 
-<details>
+<details markdown="1">
 <summary>✅ Solution</summary>
 
 ```python
@@ -438,7 +444,7 @@ def mousePressed():
 
 </details>
 
-<details>
+<details markdown="1">
 <summary>🚀 Bonus Challenge</summary>
 [Extension activity for fast finishers]
 </details>
@@ -452,7 +458,7 @@ def mousePressed():
 
 ### ✨ Quick Test Checklist
 
-<details>
+<details markdown="1">
 <summary>Before publishing, check these:</summary>
 
 - [ ] All code blocks have proper syntax highlighting (```python)
@@ -472,7 +478,7 @@ def mousePressed():
 
 ### Mix Content Types
 
-<details>
+<details markdown="1">
 <summary>🎨 Visual Reference: Color Values</summary>
 
 | Color | RGB Code        | py5 Code          |
@@ -494,10 +500,10 @@ circle(200, 200, 100)
 
 ### Troubleshooting Sections
 
-<details>
+<details markdown="1">
 <summary>🔧 Common Errors & Fixes</summary>
 
-<details>
+<details markdown="1">
 <summary>Error: "NameError: name 'mouseX' is not defined"</summary>
 
 **Cause:** You're trying to use `mouseX` outside of a py5 function.
@@ -523,7 +529,7 @@ def draw():
 
 </details>
 
-<details>
+<details markdown="1">
 <summary>Error: "Nothing happens when I click"</summary>
 
 **Cause:** Function name might be wrong.
@@ -533,16 +539,6 @@ def draw():
 </details>
 
 </details>
-
----
-
-## 🎯 Remember
-
-- This syntax works **everywhere** - GitHub, GitHub Pages, local preview
-- No JavaScript or special setup needed
-- Screen reader accessible
-- Mobile friendly
-- Can be copy-pasted by mentors
 
 ---
 
