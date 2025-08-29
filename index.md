@@ -13,7 +13,7 @@ These self-paced worksheets help students learn Python using py5 (Python version
 
 ## 📚 Available Worksheets
 
-_Coming soon - worksheets are being developed_
+- Sheet 1 : [Click the Circle](worksheets/sheet-1-click-the-circle) - Your first game !
 
 ## 💡 How It Works
 
