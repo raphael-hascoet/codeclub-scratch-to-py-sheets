@@ -11,6 +11,12 @@ Interactive worksheets for transitioning from Scratch to Python through creative
 
 These self-paced worksheets help students learn Python using py5 (Python version of Processing). Each worksheet uses visual feedback and game-like projects to make programming concepts concrete and fun.
 
+## 🔧 Before You Start
+
+**First time here?** Start with: [Setup Guide - Installing Thonny & py5](setup-thonny)
+
+This guide will help you and your parents install everything you need to start coding!
+
 ## 📚 Available Worksheets
 
 - Sheet 1 : [Click the Circle](worksheets/sheet-1-click-the-circle) - Your first game !
