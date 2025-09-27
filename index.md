@@ -20,6 +20,7 @@ This guide will help you and your parents install everything you need to start c
 ## 📚 Available Worksheets
 
 - Sheet 1 : [Click the Circle](worksheets/sheet-1-click-the-circle) - Your first game !
+- **New -** Sheet 2 : [Keyboard Sketcher](worksheets/sheet-2-keyboard-sketcher) - Draw with your keyboard !
 
 ## 💡 How It Works
 
